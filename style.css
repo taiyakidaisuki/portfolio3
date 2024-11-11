@@ -1,0 +1,369 @@
+
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+
+
+  body {
+    max-width: 1920px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+
+  }
+  
+  /* ヘッダー */
+  header {
+    display: flex;
+    justify-content: flex-end;  
+    padding-right: calc(58vw / 19.2);
+    background-color: rgba(49, 81, 30, 1);
+    height: calc(160vw / 19.2);
+  }
+
+
+  /* フッター */
+
+  footer {
+    background-color: rgba(49, 81, 30, 1);
+    height: calc(130vw / 19.2);
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+  }
+  
+  /* ナビゲーションのレイアウト */
+
+
+  #nav-pc {
+    font-size: calc(35vw / 19.2);
+    padding-top:calc(55vw / 19.2);
+    padding-bottom:calc(55vw / 19.2);
+      }
+
+
+  #nav-pc > a:link{
+    color: white;
+    margin-left: calc(18vw / 19.2);
+    text-decoration: none;
+  }
+  
+
+  #nav-pc > a:visited {
+    color: #ffffff;
+  }
+
+  #nav-pc >a:hover {
+  text-decoration: underline;
+  }
+
+  #nav-pc img{
+    width: calc(40vw / 19.2); ;
+    height: auto;
+  }
+
+
+  /* メインビジュアル */
+ #main-visual {
+  margin:0 auto ;
+ }
+
+ #main-visual img{
+  width: calc(1920vw / 19.2);
+  margin: 0 auto;
+  display: block;
+ }
+
+
+
+ /* 各見出し */
+h1{
+background:  rgba(49, 81, 30, 1);
+margin: auto;
+width: calc(400vw / 19.2);
+height: calc(125vw / 19.2);
+display: flex;
+align-items: center;
+margin-top: calc(20vw/19.2);
+}
+
+.box {
+  border: white 1px solid; 
+  width:calc(350vw / 19.2);
+  height: calc(90vw / 19.2);
+  margin: auto;
+  display: flex;
+  align-items: center;
+ }
+
+ .box p {
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: calc(35vw / 19.2);
+margin: auto;
+ }
+
+
+
+
+ /* ABOUT */
+
+
+ /* 背景色 */
+#about {
+ background-color: rgba(225, 213, 159, 1);
+ height: calc(1000vw/19.2);
+ padding-top: calc(50vw/19.2);
+}
+
+/* 並び方 */
+.aboutme{
+  display: flex;
+  padding-bottom:calc(50vw/19.2);
+  justify-content: space-between;
+  padding-right:calc(30vw/19.2);
+}
+
+/* プロフィール画像 */
+.prof img {
+  border-radius: 100%;
+  width: calc(660vw / 19.2);
+  height: auto;
+  margin-left: -10%;  
+  z-index: 3;
+
+}
+
+/* 紹介文 */
+.container01 {
+  padding-top: 20px;
+  position: relative;
+}
+
+
+.box01 {
+background-color:rgba(255, 255, 255, 0.88) ;
+height: calc(500vw/19.2);
+width: calc(1000vw/19.2);
+color: rgba(127, 127, 127, 1);
+position: relative;
+z-index: 2;
+
+}
+
+.name{
+padding-top: calc(40vw / 19.2);
+padding-left: calc(140vw / 19.2);
+font-size: calc(44vw/19.2) ;
+}
+
+.box01 p{
+  padding-top: calc(20vw/19.2);
+  padding-left: calc(140vw/19.2);
+  font-size: calc(31vw/19.2) ;
+
+}
+
+.box02{
+  background-color:rgba(234, 226, 188, 1) ;
+  height: calc(500vw/19.2);
+  width: calc(1000vw/19.2); 
+ position: absolute;
+  top: calc(150vw/19.2);
+  left:calc(50vw/19.2);
+  z-index: 1;
+
+}
+
+
+/* WORKS */
+
+/* 背景色 */
+#works {
+  background-color: rgba(144, 144, 3, 1);
+  height: calc(1000vw/19.2);
+  padding-top: calc(50vw/19.2);
+
+
+}
+
+/* 並び方 */
+.container02 {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* リンク */
+
+.container02  a{
+ text-decoration: none;
+}
+
+.container02  a:visited {
+  color: rgba(107, 83, 2, 1);
+}
+
+.container02 a:hover { 
+text-decoration: underline;
+}
+
+
+/* 各配置 */
+ .works1{
+  position: relative;
+  width: calc(500vw/19.2);
+  height: calc(500vw/19.2);
+  z-index: 0;
+  margin: calc(30vw/19.2);
+ }
+
+ .works2{
+  position: relative;
+  width: calc(500vw/19.2);
+  height: calc(500vw/19.2);
+  z-index: 0;
+  margin: calc(30vw/19.2);
+ }
+
+ .works3
+ {
+  position: relative;
+  width: calc(500vw/19.2);
+  height: calc(500vw/19.2);
+  z-index: 0;
+  margin: calc(30vw/19.2);
+ }
+ 
+ /* 影 */
+ .inset{
+  width: calc(500vw/19.2);
+  height: calc(500vw/19.2);
+  border-radius: 100% 100% 0 0;
+  position: relative;
+  box-shadow:inset 0 5px 5px rgb(137, 137, 137);
+
+ }
+ 
+
+/* 画像 */
+ .inset img {
+  width: calc(500vw/19.2);
+  height: auto;
+  border-radius: 100% 100% 0 0;
+  position: relative;
+  z-index: -1;
+
+ }
+
+/* 作品名 */
+.sakuhin {
+  background-color: rgba(199, 205, 177, 1);
+  height: calc(126vw/19.2);
+  position: relative;
+  z-index: 2;
+  margin-top:calc(-250vw/19.2);
+  display: flex;
+  
+}
+
+.sakuhin p {
+  
+font-size: calc(39vw/19.2);
+color: rgba(107, 83, 2, 1);
+text-align: center;
+font-weight: bold;
+font-size: calc(35vw / 19.2);
+margin: auto;
+  
+}
+
+/* 作品紹介 */
+.exp {
+  background-color:white;
+  height: calc(280vw/19.2);
+  position: relative;
+  z-index: 0;
+  margin-top: calc(-50vw/19.2);
+  font-size: calc(29vw/19.2);
+  padding-top: calc(50vw/19.2);
+  color: rgba(127, 127, 127, 1);
+}
+
+
+
+/* SKILLS */
+
+#skills{
+   padding-top: calc(50vw/19.2);
+}
+
+ .skills{
+  text-align: center;
+  background-color: #ffffff;
+}
+ 
+
+
+ .skills img{
+  width: calc(240vw/19.2);
+  height: auto;
+  padding: calc(80vw/19.2);
+ }
+
+
+ /* CONTACT */
+ #contact {
+  background-color: rgba(224, 212, 159, 1);
+  padding-top: calc(50vw/19.2);
+ }
+
+.contact{
+  text-align: center;
+
+
+ }
+
+
+ .contact img{
+  width: calc(240vw/19.2);
+  height: auto;
+  padding: calc(80vw/19.2);
+ }
+
+
+
+
+ /* WORKS　各ページ */
+
+ .works{
+  background-color: rgba(224, 212, 159, 1);
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: calc(50vw/19.2);
+
+
+
+  
+ }
+
+ .works img{
+ width: calc(1018vw/19.2);
+ height: auto;
+ margin-top: calc(150vw/19.2);
+ 
+ }
+
+ .exp02 {
+  height: calc(900vw/19.2);
+  width: calc(1400vw/19.2);
+  margin-top: calc(50vw/19.2);
+  padding: calc(50vw/19.2);
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+
+}
+
